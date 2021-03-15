@@ -1,5 +1,7 @@
 # Password Generator
 ## A series of prompts for password criteria
+Request | Decription
+------------ | -------------
 Length Limit | between 8 - 128 characters
 character types | lowercase, uppercase, numeric, and/or special characters
 Input validation | Confirm Function 
