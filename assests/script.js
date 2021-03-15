@@ -7,10 +7,10 @@ var numChar = "1234567890"
 // three conditions of word choices
 
 function getPassword() {
-  
+  window.alert("Welcome to Raven Password Inc.")
   var container = "";
   var password = "";
-  var wordLength = window.prompt("How many char would you like?")
+  var wordLength = window.prompt("How many characters would you like in your password?")
   if (wordLength < 8 || wordLength > 128){
     window.alert("length has to be between 8-128 characters")
     getPassword();
@@ -54,6 +54,4 @@ function getPassword() {
     }
     window.alert("You have sucessfully created a personal secured password!")
   document.getElementById("password").value = password
-  
-
 }

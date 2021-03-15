@@ -8,3 +8,5 @@ Input validation | Confirm Function
 At least one character type | If null, returned to wordSelcetion()
 Password result | matches the selected criteria
 Password display | written in text area
+
+https://ravenw06.github.io/Password-Generator/
