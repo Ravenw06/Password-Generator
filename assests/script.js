@@ -35,8 +35,13 @@ function getPassword() {
     if (confirmNumChar) {
       container = container.concat(numChar);
     }
+    if (container === ""){
+      window.alert("Must select one Character Type!")
+      wordSelection();
+    }
 
   }
+
     wordSelection();
     var realLeng = parseInt(wordLength);
     
@@ -47,6 +52,7 @@ function getPassword() {
       password += container.split('')[randomNumber]; 
       
     }
+    window.alert("You have sucessfully created a personal secured password!")
   document.getElementById("password").value = password
   
 
