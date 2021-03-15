@@ -10,3 +10,4 @@ Password result | matches the selected criteria
 Password display | written in text area
 
 https://ravenw06.github.io/Password-Generator/
+![image](https://user-images.githubusercontent.com/78116042/111089501-96b7f880-8502-11eb-8b62-cdfa39a47dac.png)
